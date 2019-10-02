@@ -1,0 +1,1 @@
+export const api = 'http://apps.test/api';
