@@ -3,7 +3,7 @@ import axios from 'axios';
 import { api } from '../../api';
 
 const state = {
-    token: document.cookie.access_token || null,//localStorage.getItem("access_token") || null,
+    token: localStorage.getItem("access_token") || null,
     user: localStorage.getItem("user") || null,
 
 
