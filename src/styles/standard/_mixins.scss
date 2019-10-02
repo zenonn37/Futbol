@@ -1,0 +1,8 @@
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+
+@mixin transitions($time,$curve) {
+    
+    transition: all $time $curve;
+}

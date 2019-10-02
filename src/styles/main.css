@@ -1,4 +1,18 @@
 body {
-  background-color: bisque;
+  background-color: #dadada;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
 }
 /*# sourceMappingURL=main.css.map */

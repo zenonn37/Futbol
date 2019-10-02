@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,MAAM;CAC3B",
+    "mappings": "AIAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EHDd,OAAkB;EGEpB,WAAW,EAAE,wBAAwB;CAExC;;AACD,AAAA,CAAC;AACD,CAAC,AAAA,MAAM;AACP,CAAC,AAAA,OAAO,CAAC;EFNL,UAAU,EEOQ,OAAO;CAC5B;;AAED,AAAA,IAAI,CAAA;EFVA,UAAU,EEWU,UAAU;EAC9B,MAAM,EAAE,IAAI;CACf",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "standard/_vars.scss",
+        "standard/_mixins.scss",
+        "standard/_forms.scss",
+        "modules/_base.scss"
     ],
     "names": [],
     "file": "main.css"
