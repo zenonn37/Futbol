@@ -3,6 +3,8 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Auth from './views/Auth.vue';
 import Teams from './views/Teams.vue';
+import Team from './views/Team.vue';
+import League from "./views/League.vue";
 
 Vue.use(Router);
 
@@ -13,7 +15,16 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
+      props: true
+    },
+    {
+      path: "/league/:id",
+      name: "league",
+      component: League,
+
+      props: true
+
     },
     {
       path: "/auth",
@@ -23,7 +34,14 @@ export default new Router({
     {
       path: "/teams",
       name: "teams",
-      component: Teams
+      component: Teams,
+      props: true
+    },
+    {
+      path: "/team/:id",
+      name: "team",
+      component: Team,
+      props: true
     },
     {
       path: "/about",

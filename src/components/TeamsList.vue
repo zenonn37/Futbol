@@ -4,7 +4,9 @@
       <img :src="`${teams.logo}`" :alt="`${teams.name}`" />
     </div>
     <div class="name">
-      <h2>{{teams.name}}</h2>
+      <router-link :to="`/team/${teams.team_id}`">
+        <h2>{{teams.name}}</h2>
+      </router-link>
     </div>
   </div>
 </template>

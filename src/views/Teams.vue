@@ -18,6 +18,9 @@ export default {
   computed: {
     teams() {
       return this.$store.getters.TEAMS_ALL;
+    },
+    getTeam() {
+      return this.$store.getters.getTeamById;
     }
   }
 };

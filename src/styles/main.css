@@ -29,4 +29,21 @@ html {
           box-sizing: border-box;
   height: 100%;
 }
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.logo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo-list img {
+  width: 50px;
+}
 /*# sourceMappingURL=main.css.map */
